@@ -1,0 +1,53 @@
+* ID : ID de cada cliente
+* LIMIT_BAL : cantidad del crédito otorgado en dólares NT (incluye crédito individual y familiar / suplementario
+
+
+* SEXO : Género (1 = masculino, 2 = femenino)
+
+* MATRIMONIO : Estado civil (1 = casado, 2 = soltero, 3 = otros)
+
+
+
+
+* EDUCACIÓN : (1 = posgrado, 2 = universidad, 3 = bachillerato, 4 = otros, 5 = desconocido, 6 = desconocido)
+
+
+* EDAD : Edad en años
+* PAY_0 : Estado de reembolso en septiembre de 2005 (-1 = pago debidamente, 1 = retraso en el pago durante un mes, 
+2 = retraso en el pago durante dos meses,
+ 8 = retraso en el pago durante ocho meses,
+ 9 = retraso en el pago durante nueve meses o más)
+ 
+* PAY_2 : Estado de reembolso en agosto de 2005 (escala igual a la anterior)
+* PAY_3 : Estado de reembolso en julio de 2005 (escala igual a la anterior)
+* PAY_4 : Estado de reembolso en junio de 2005 (escala igual a la anterior)
+* PAY_5 : Estado de reembolso en mayo de 2005 (escala igual a la anterior)
+* PAY_6 : Estado de reembolso en abril de 2005 (escala igual a la anterior)
+
+
+* BILL_AMT1 : Monto del extracto de la factura en septiembre de 2005 (dólar NT)
+* BILL_AMT2 : Monto del extracto de la factura en agosto de 2005 (dólar NT)
+* BILL_AMT3 : Monto del extracto de la factura en julio de 2005 (dólar NT)
+* BILL_AMT4 : Monto del extracto de la factura en junio de 2005 (dólar NT)
+* BILL_AMT5 : Monto del extracto de la factura en mayo de 2005 (dólar NT)
+* BILL_AMT6 : Monto del extracto de la factura en abril de 2005 (dólar NT)
+
+
+* PAY_AMT1 : Monto del pago anterior en septiembre de 2005 (dólar NT)
+* PAY_AMT2 : Monto del pago anterior en agosto de 2005 (dólar NT)
+* PAY_AMT3 : Monto del pago anterior en julio de 2005 (dólar NT)
+* PAY_AMT4 : Monto del pago anterior en junio de 2005 (dólar NT)
+* PAY_AMT5 : Monto del pago anterior en mayo de 2005 (dólar NT)
+* PAY_AMT6 : Monto del pago anterior en abril de 2005 (dólar NT)
+
+
+
+
+* default.payment.next.month : pago predeterminado (1 = sí, 0 = no)
+
+
+
+* Variable Nueva
+
+- Categoria de la Persona: Joven, Adulto, Adulto Mayor
+
